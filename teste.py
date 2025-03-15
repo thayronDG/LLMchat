@@ -9,7 +9,7 @@ client = ollama.Client()
 
 # Defina uma função para consultar a API do Ollama
 def query_ollama(prompt):
-    response = ollama.generate(model='llama3', prompt=prompt )
+    response = ollama.generate(model='llama3.1', prompt=prompt )
     print(f'resposta função:{response}\n')
     return response.choices[0].text.strip()
 
