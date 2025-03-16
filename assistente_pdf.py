@@ -3,7 +3,6 @@ import pyttsx3  # pip install pyttsx3 or (elevenlabs)
 import ollama
 import os
 import pandas as pd
-import pdfplumber
 from llama_index.core import SimpleDirectoryReader
 from llama_parse import LlamaParse
 from llama_index.readers.file import (
